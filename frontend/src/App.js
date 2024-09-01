@@ -12,14 +12,7 @@ function App() {
                   <Navbar/>
             </div>
             
-            <div style={{display: "flex"}}>
-                  
-                  <Sidebar width={300} height={"100vh"}>
-                        <h1>Organigramas</h1>
-                        <h1>Profesores</h1>
-                        <h1>Alumnos</h1>
-                        <h1>Accesos</h1>
-                  </Sidebar>
+            <div>
             
                   <div style={{display: "inline"}}>
                         <img src={logo} alt="Logo de la institución" width={100}/>
